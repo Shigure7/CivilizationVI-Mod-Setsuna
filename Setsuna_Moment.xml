@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: shigure -->
+<!-- DateCreated: 5/18/2022 11:01:59 PM -->
+<GameData>
+	<MomentIllustrations>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_BUILDING</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
+			<GameDataType>BUILDING_FOOD</GameDataType>
+			<Texture>MOMENT_BUILDING_FOOD.dds</Texture>
+		</Row>
+
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_BUILDING</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
+			<GameDataType>BUILDING_NJSK</GameDataType>
+			<Texture>MOMENT_BUILDING_NJSK.dds</Texture>
+		</Row>
+
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_DISTRICT</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_DISTRICT</MomentDataType>
+			<GameDataType>DISTRICT_NIJIGASAKI</GameDataType>
+			<Texture>MOMENT_DISTRICT_NIJIGASAKI.dds</Texture>
+		</Row>
+	</MomentIllustrations>
+</GameData>

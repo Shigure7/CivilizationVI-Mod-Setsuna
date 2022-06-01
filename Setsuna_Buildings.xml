@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Setsuna_Buildings -->
+<!-- Author: shigure -->
+<!-- DateCreated: 5/14/2022 3:48:41 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_FOOD" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_NJSK" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_FOOD" ReplacesBuildingType="BUILDING_GRANARY"/>
+		<Row CivUniqueBuildingType="BUILDING_NJSK" ReplacesBuildingType="BUILDING_LIBRARY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_NJSK" Name="LOC_BUILDING_NJSK_NAME" Description="LOC_BUILDING_NJSK_DESCRIPTION" PrereqTech="TECH_WRITING" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_BUILDING_NJSK"/>
+		<Row BuildingType="BUILDING_FOOD" Name="LOC_BUILDING_FOOD_NAME" Description="LOC_BUILDING_FOOD_DESCRIPTION" PrereqTech="TECH_POTTERY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="30" AdvisorType="ADVISOR_GENERIC" Housing="3" Entertainment="-1" TraitType="TRAIT_BUILDING_FOOD"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_UNIVERSITY" PrereqBuilding="BUILDING_NJSK"/>
+		<Row Building="BUILDING_GREAT_LIBRARY" PrereqBuilding="BUILDING_NJSK"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_FOOD" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FOOD" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_NJSK" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_NJSK" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_NJSK" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_NJSK" GreatPersonClassType="GREAT_PERSON_CLASS_SCHOOL_IDOL" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_NJSK" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3" ThemingUniquePerson="false" ThemingSameObjectType="false" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="3" NonUniquePersonTourism="4" ThemingBonusDescription="LOC_BUILDING_NJSK_MUSIC"/>
+	</Building_GreatWorks>
+</GameData>
