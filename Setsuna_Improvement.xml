@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Setsuna_Improvement -->
+<!-- Author: shigure -->
+<!-- DateCreated: 5/19/2022 9:53:43 PM -->
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" Name="LOC_IMPROVEMENT_SCHOOL_IDOL_FESTIVAL_NAME" Description="LOC_IMPROVEMENT_SCHOOL_IDOL_FESTIVAL_DESCRIPTION" Icon="ICON_IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqCivic="CIVIC_GAMES_RECREATION" OnePerCity="true" Appeal="2" TraitType="TRAIT_IMPROVEMENT_FESTIVAL"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" YieldChangeId="Festival_CityCenterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" YieldChangeId="Festival_CampusAdjacency"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" UnitType="UNIT_GREAT_PERSON_SCHOOL_IDOL"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" YieldType="YIELD_GOLD" YieldChange="4"/>
+	</Improvement_YieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_SCHOOL_IDOL_FESTIVAL" TourismSource="TOURISMSOURCE_APPEAL" PrereqCivic="CIVIC_OPERA_BALLET" ScalingFactor="200"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="Festival_CityCenterAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="Festival_CampusAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+	</Adjacency_YieldChanges>
+	
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_SCHOOL_IDOL_FESTIVAL</ImprovementType>
+			<ModifierId>FESTIVAL_AMENITY</ModifierId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_SCHOOL_IDOL_FESTIVAL</ImprovementType>
+			<ModifierId>MODIFIER_FESTIVAL_CULTURE</ModifierId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_SCHOOL_IDOL_FESTIVAL</ImprovementType>
+			<ModifierId>MODIFIER_FESTIVAL_FAITH</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>FESTIVAL_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>FESTIVAL_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>
