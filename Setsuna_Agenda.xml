@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Setsuna_Agenda -->
+<!-- Author: shigure -->
+<!-- DateCreated: 5/20/2022 2:06:05 PM -->
+<GameData>
+	<Types>
+		<Row Type="TRAIT_AGENDA_SETSUNA" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_SETSUNA" Name="LOC_AGENDA_SETSUNA_NAME" Description="LOC_AGENDA_SETSUNA_DESCRIPTION"/>
+	</Traits>
+	<Agendas>
+		<Row AgendaType="AGENDA_SETSUNA" Name="LOC_AGENDA_SETSUNA_NAME" Description="LOC_AGENDA_SETSUNA_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SETSUNA" AgendaType="AGENDA_SETSUNA"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_SETSUNA" TraitType="TRAIT_AGENDA_SETSUNA"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_SETSUNA" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_SETSUNA" AgendaTwo="AGENDA_FUN_LOVING"/>
+	</ExclusiveAgendas>
+</GameData>
