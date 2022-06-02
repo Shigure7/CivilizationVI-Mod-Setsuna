@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Setsuna_Color -->
+<!-- Author: shigure -->
+<!-- DateCreated: 5/16/2022 10:37:52 AM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SETSUNA_PRIMARY</Type>
+			<Color>218,54,63,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SETSUNA_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SETSUNA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_SETSUNA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SETSUNA_SECONDARY</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>
